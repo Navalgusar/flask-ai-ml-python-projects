@@ -1,0 +1,23 @@
+# === Python Environment & Caches ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# === Large ML Datasets ===
+*.tsv
+*.json
+!frontend/*.json
+
+# Keep the small housing CSV so that project runs perfectly
+!USA_Housing.csv
+
+# === Serialized ML Models & Weights ===
+# This blocks the massive digit pkl file from breaking your GitHub push!
+*.pkl
+
+# === OS & IDE Overrides ===
+.DS_Store
+.vscode/
+.idea/
