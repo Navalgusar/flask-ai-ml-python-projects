@@ -11,7 +11,7 @@ Click on the links below to view the full datasets, methodologies, and execution
 * 🏡 **[House Price Predictor (Linear Regression)](./house_price_predictor/)** — A web application that predicts residential real estate valuations using structural metrics.
 * ✉️ **[SMS Spam Detector (KNN Classifier)](./sms-spam-detector)** — A natural language processing web tool that classifies SMS messages into 'Spam' or 'Ham'.
 * 🔢 **[Digit Recognition (Random Forest)](./digit_recognition)** — A computer vision web tool that classifies handwritten numbers (0–9) drawn live on an HTML5 canvas.
-
+* 🎬 **[CineMatch Movie Recommender (TF-IDF & Cosine Similarity)](./movie-recommendation-system)** — A cinematic, multi-threaded web engine that maps text descriptions into vector spaces to calculate contextually similar films.
 ---
 
 ## 🏗️ Engineering Architecture Standard
