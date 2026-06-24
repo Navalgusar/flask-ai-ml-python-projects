@@ -31,6 +31,9 @@ While Convolutional Neural Networks (CNNs) are the golden standard for complex c
 ## 🖥️ Dashboard/Model/Output
 The frontend features a live interactive pixel-drawing pad. When the user draws a digit, the JavaScript logic reads the canvas pixels, downsamples them to a $28 \times 28$ matrix, and forwards the array to `server.py`, which returns the predicted digit along with the system's confidence scores.
 
+![Digit Recognition Canvas Layout](../preview-images/digit-recognition.png)
+*Figure 1: Real-time hand-drawn canvas interface displaying precision confidence metrics for matrix values (0–9).*
+
 ## 🚀 How to Run this project?
 
 ### Step 1: Run Backend Server

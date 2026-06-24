@@ -30,6 +30,9 @@ Rigorous text preprocessing and stopword removal significantly reduce the overal
 ## 🖥️ Dashboard/Model/Output
 The system outputs a clean web dashboard featuring an interactive text submission field. Upon clicking check, the frontend renders immediate, dynamic color-coded classification feedback (e.g., Red alerts for **Spam**, Green accents for **Legitimate/Ham**) alongside the real-time model confidence score calculated via `predict_proba`.
 
+![SMS Spam Detector Verification Layout](../preview-images/spam-detector.png)
+*Figure 1: Predictive dashboard identifying input strings as 'Ham' (Legitimate) or 'Spam'.*
+
 ## 🚀 How to Run this project?
 
 ### Step 1: Run Backend Server

@@ -31,7 +31,8 @@ movie-recommendation-system/
 ```
 ## 🖥️ Dashboard/Model/Output
 The frontend delivers an immersive Netflix aesthetic featuring an interactive canvas background with moving particle physics. Upon typing a movie title, the dashboard handles transitions seamlessly—showing an infinite red loop spinner during calculation, and loading uniform 2:3 cinematic grid cards complete with real-time IMDB star ratings, poster art, and release dates.
-
+![CineMatch Dashboard Home Screen](../preview-images/cinematch-home.png)
+*Figure : Main Search Interface featuring the cinematic animated particle background.*
 ## 🚀 How to Run this project?
 
 ### Step 1: Run Backend Server

@@ -31,6 +31,9 @@ Including the `Area Population` metric in the primary training matrix was critic
 ## 🖥️ Dashboard/Model/Output
 The serialized weights are hosted via a Flask JSON POST route. The application provides an interactive web dashboard where users input regional statistics and get immediate, dynamic price estimates returned directly to the screen without page reloads.
 
+![House Price Predictor Dashboard Layout](../preview-images/house-predictor.png)
+*Figure 1: Inputs interface for submitting structural parameters to the predictive regression engine.*
+
 ## 🚀 How to Run this project?
 
 ### Step 1: Run Backend Server
