@@ -21,3 +21,9 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+
+# === Local Security & Environment Variables ===
+.env
+
+# === Project Specific Local Caches ===
+movie-recommendation-system/backend/model/
