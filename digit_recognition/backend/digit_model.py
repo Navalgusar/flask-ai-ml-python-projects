@@ -1,4 +1,5 @@
 import joblib
+import os
 from sklearn.datasets import fetch_openml
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -20,5 +21,8 @@ clf = RandomForestClassifier(n_estimators=100)
 clf.fit(X_train, y_train)
 
 # Save model
-joblib.dump(clf, "digit_model.pkl")
-print("✅ Model trained and saved as digit_model.pkl")
+os.makedirs("model", exist_ok=True)
+joblib.dump(clf, "model/digit_model.pkl")
+joblib.dump(scaler, "model/scaler.pkl") 
+
+print("✅ Model and Scaler trained and saved successfully!")
